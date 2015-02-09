@@ -1,4 +1,6 @@
-	
+	</main>
 	<footer>
-		&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.
+		
 	</footer>
+</div> <!--page-wrap-->
+</div><!--page-content-->
