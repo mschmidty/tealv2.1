@@ -123,10 +123,11 @@
 	======================================================================================================================== */
 	add_action( 'after_setup_theme', 'baw_theme_setup' );
 		function baw_theme_setup() {
-			add_image_size('xlarge-img', 1300,900);
-			add_image_size('large-img', 1000, 702);
-			add_image_size('medium-img', 700, 372);
-			add_image_size('small-img', 300, 200);
+			add_image_size('xlarge-img', 1300);
+			add_image_size('large-img', 1000);
+			add_image_size('medium-img', 700);
+			add_image_size('small-img', 500);
+			add_image_size('xsmall-img', 300);
 			add_image_size('thumb-img', 300, 200, array('center', 'top'));
 		}
 	/* ========================================================================================================================
