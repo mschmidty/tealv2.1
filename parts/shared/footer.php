@@ -1,6 +1,35 @@
 	</main>
 	<footer>
-		
+		<nav>
+			<?php wp_nav_menu( array('menu' => 'nav_menu' )); ?>
+		</nav>	
+		<div class="social-icons">
+			<ul>
+				<li>
+					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					    <use class="fill-red" xlink:href="#facebook"></use>
+					</svg>
+				</li>
+				<li>
+					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					    <use class="fill-red" xlink:href="#twitter"></use>
+					</svg>
+				</li>
+				<a href="#"><li>
+					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					    <use class="fill-red" xlink:href="#scott-logo"></use>
+					</svg>
+				</li></a>
+				<a href="#"><li>
+					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					    <use class="fill-red" xlink:href="#moon_logo_white"></use>
+					</svg>
+				</li></a>
+			</ul>
+		</div>
+		<div class="schmidty">
+			<p>Website Design and Build by <a href="http://schmidtyworks.com">Schmidtyworks.com</a></p>
+		</div>
 	</footer>
 </div> <!--page-wrap-->
 </div><!--page-content-->
