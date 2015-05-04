@@ -17,7 +17,7 @@ Template Name: Schedule
 				'posts_per_page' => -1,
 				'meta_key' => 'date',
         'orderby' => 'meta_value_num' ,
-        'order' => 'DESC'
+        'order' => 'ASC'
 		)); 
 	?>
 
