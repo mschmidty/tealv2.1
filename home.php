@@ -11,29 +11,25 @@ Template Name: Homepage
 srcset="<?php echo get_template_directory_uri(); ?>/images/home/teal-face-xsmall.jpg 500w, <?php echo get_template_directory_uri(); ?>/images/home/teal-face-small.jpg 700w, <?php echo get_template_directory_uri(); ?>/images/home/teal-face-medium.jpg 1000w, <?php echo get_template_directory_uri(); ?>/images/home/teal-face-large.jpg 1500w" alt="Teal looking at a score board">
 </div>
 <section class="width-100 home-links">
-  <div class="home-links-child centered-verticle-container">
+  <a href="/index.php/videos" class="home-links-child centered-verticle-container">
     <div class="centered-verticle">
       <h3 >Videos</h3>
-      <p> Check out my latest videos from events around the country!</p>
     </div>
-  </div>
-  <div class="home-links-child centered-verticle-container">
-    <div class="centered-verticle">
-      <h3>Sponsors</h3>
-      <p>It takes a village, if you know what I mean.</p>
-    </div>
-  </div>
-  <div class="home-links-child centered-verticle-container">
-    <div class="centered-verticle">
-      <h3>About</h3>
-      <p>The how, what, where and when of my career and life.</p>
-    </div>
-    </div>
-  </div>
+  </a>
+  <a href="/index.php/sponsors" class="home-links-child centered-verticle-container">
+      <div class="centered-verticle">
+        <h3>Sponsors</h3>
+      </div>
+  </a>  
+  <a href="/index.php/about" class="home-links-child centered-verticle-container">
+      <div class="centered-verticle">
+        <h3>About</h3>
+      </div>
+  </a>  
 </section>
 <section class="image-section-container">
   <div class="image-section">
-    <h3>Latest Images</h3>
+    <a href="/index.php/photos"><h3>Latest Images</h3></a>
     <img 
         sizes="75vh"
         src="<?php echo get_template_directory_uri(); ?>/images/home/teal-fontana-medium.jpg"

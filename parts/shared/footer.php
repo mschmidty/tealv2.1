@@ -9,7 +9,7 @@
 					<li>
 						<a href="https://www.facebook.com/tealstetsonlee">
 						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						    <use class="fill-red" xlink:href="#facebook"></use>
+						    <use class="fill-blue" xlink:href="#facebook"></use>
 						</svg>
 						</a>
 					</li>
@@ -17,7 +17,7 @@
 				<a href="https://twitter.com/tealstetsonlee">
 					<li>
 						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						    <use class="fill-red" xlink:href="#twitter"></use>
+						    <use class="fill-blue" xlink:href="#twitter"></use>
 						</svg>
 					
 					</li>
@@ -25,15 +25,20 @@
 				<a href="#">
 					<li>
 						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						    <use class="fill-red" xlink:href="#scott-logo"></use>
+						    <use class="fill-blue" xlink:href="#scott-logo"></use>
 						</svg>
 					</li>
 				</a>
 				<a href="http://www.shadowindco.com">
 					<li>
 						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						    <use class="fill-red" xlink:href="#moon_logo_white"></use>
+						    <use class="fill-blue" xlink:href="#moon_logo_white"></use>
 						</svg>
+					</li>
+				</a>
+				<a href="http://cxreno.com/cyclocross/">
+					<li>
+						<h5>Cross<br>Reno</h5>
 					</li>
 				</a>
 			</ul>
