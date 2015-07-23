@@ -6,7 +6,7 @@ Template Name: Schedule
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header') ); ?>
 
-<h1 class="center page-title">Schdule</h1>
+<h1 class="center page-title">Schedule</h1>
 
 
 
